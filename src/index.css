@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@keyframes border-pulse-red {
+  0%, 100% { border-color: #ef4444; }
+  50% { border-color: rgba(239, 68, 68, 0.3); }
+}
+
+@keyframes border-pulse-black {
+  0%, 100% { border-color: #27272a; }
+  50% { border-color: rgba(39, 39, 42, 0.3); }
+}
+
+.border-pulse-red {
+  animation: border-pulse-red 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.border-pulse-black {
+  animation: border-pulse-black 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

@@ -1,0 +1,5 @@
+{
+  "name": "大兵小將",
+  "description": "一款簡單的象棋遊戲，黑方將領需抵達左上角，紅方士兵需捕捉將領。",
+  "requestFramePermissions": []
+}
